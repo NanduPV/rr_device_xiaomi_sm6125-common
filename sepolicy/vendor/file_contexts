@@ -20,5 +20,14 @@
 # Mlipay
 /(vendor|system/vendor)/bin/mlipayd@1.1         u:object_r:hal_mlipay_default_exec:s0
 
+# Neural networks
+/vendor/bin/hw/android\.hardware\.neuralnetworks@1\.1-service-qti		u:object_r:hal_neuralnetworks_default_exec:s0
+
 # Thermal
 /data/vendor/thermal(/.*)?                      u:object_r:thermal_data_file:s0
+
+# Device info
+/sys/class/thermal/thermal_zone9/temp           u:object_r:sysfs_device_info:s0
+/sys/class/thermal/thermal_zone61/temp          u:object_r:sysfs_device_info:s0
+/sys/kernel/gpu/gpu_clock                       u:object_r:sysfs_device_info:s0
+/sys/kernel/gpu/gpu_busy                        u:object_r:sysfs_device_info:s0
