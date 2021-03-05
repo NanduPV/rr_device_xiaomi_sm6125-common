@@ -1,4 +1,4 @@
-# Camera Fixes
+# Remosaic
 type remosaic_daemon, domain;
 type remosaic_daemon_exec, exec_type, vendor_file_type, file_type;
 type remosaic_daemon_service, vndservice_manager_type;
