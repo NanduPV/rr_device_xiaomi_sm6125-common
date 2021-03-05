@@ -88,6 +88,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.feature.wsa.enable=false \
     vendor.audio.feature.audiozoom.enable=false \
     vendor.audio.feature.snd_mon.enable=true
+    
+# Speaker clarity hack
+PRODUCT_PROPERTY_OVERRIDES += \
+   vendor.audio.feature.spkr_prot.enable=false
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.media_vol_steps=25 \

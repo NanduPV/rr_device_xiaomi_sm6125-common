@@ -1,0 +1,6 @@
+[
+  {
+    "repository": "android_kernel_xiaomi_laurel_sprout",
+    "target_path": "kernel/xiaomi/laurel_sprout"
+  }
+]
