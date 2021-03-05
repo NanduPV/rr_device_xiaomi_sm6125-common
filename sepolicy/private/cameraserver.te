@@ -1,0 +1,2 @@
+# Stock camera service
+set_prop(cameraserver, system_prop)
