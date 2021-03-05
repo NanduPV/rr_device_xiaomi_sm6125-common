@@ -500,3 +500,7 @@ service smcinvoked /system/bin/smcinvoked
     class main
     user system
     group system
+    
+# MIUICamera
+on property:sys.camera.miui.apk=*
+    setprop vendor.camera.miui.apk ${sys.camera.miui.apk}
