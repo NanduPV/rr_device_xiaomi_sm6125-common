@@ -1,5 +1,2 @@
 # Present as Xiaomi device
 ro.product.system.manufacturer u:object_r:exported2_default_prop:s0 exact string
-
-# Auxillary Cameras
-vendor.camera.aux.packageblacklist u:object_r:vendor_camera_prop:s0
