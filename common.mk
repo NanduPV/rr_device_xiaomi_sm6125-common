@@ -462,6 +462,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
-
+    
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sm6125-common/sm6125-common-vendor.mk)
