@@ -153,15 +153,11 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     BluetoothQti \
     vendor.qti.hardware.btconfigstore@1.0.vendor
-
+    
+# Camera    
 PRODUCT_PACKAGES += \
-    android.hardware.camera.device@3.4 \
-    android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service \
-    android.hardware.camera.provider@2.5 \
-    libdng_sdk.vendor \
-    vendor.qti.hardware.camera.device@1.0
-
+    libdng_sdk.vendor
+    
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
     cneapiclient \
@@ -287,7 +283,8 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.sh \
     init.recovery.qcom.rc \
     init.target.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.safailnet.rc
 
 # IPv6
 PRODUCT_PACKAGES += \
